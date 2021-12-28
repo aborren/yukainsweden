@@ -36,8 +36,8 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Yuka in Sweden",
+    description: "Yuka in Sweden blog",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
