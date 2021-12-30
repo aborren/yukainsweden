@@ -36,7 +36,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Yuka in Sweden",
+    title: "東京女子、北欧へ移住",
     description: "Yuka in Sweden blog",
     social: {
       twitter: "yukainsweden",
