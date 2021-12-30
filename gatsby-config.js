@@ -38,6 +38,9 @@ module.exports = {
   siteMetadata: {
     title: "Yuka in Sweden",
     description: "Yuka in Sweden blog",
+    social: {
+      twitter: "yukainsweden",
+    },
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [

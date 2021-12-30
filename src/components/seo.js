@@ -10,6 +10,9 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
           siteMetadata {
             title
             description
+            social {
+              twitter
+            }
           }
         }
       }
