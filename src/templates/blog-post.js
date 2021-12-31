@@ -79,7 +79,7 @@ export const pageQuery = graphql`
       author {
         name
       }
-      publishDate(formatString: "MMMM Do, YYYY")
+      publishDate(formatString: "MMMM Do YYYY", locale: "ja")
       rawDate: publishDate
       heroImage {
         gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, width: 1280)
