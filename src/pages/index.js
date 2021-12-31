@@ -32,7 +32,7 @@ export const pageQuery = graphql`
       nodes {
         title
         slug
-        publishDate(formatString: "MMMM Do YYYY", locale: "ja")
+        publishDate(formatString: "YYYY/MM/DD", locale: "ja")
         tags
         heroImage {
           gatsbyImageData(
