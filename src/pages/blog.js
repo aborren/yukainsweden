@@ -24,8 +24,12 @@ class BlogIndex extends React.Component {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query BlogIndexQuery {
-    allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
+  query BlogIndexQuery($skip: Int!, $limit: Int!) {
+    allContentfulBlogPost(
+        sort: { fields: [publishDate], order: DESC }
+        limit: $limit
+        skip: $skip
+      ) {
       nodes {
         title
         slug
