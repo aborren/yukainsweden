@@ -6,7 +6,7 @@ import * as styles from './hero.module.css'
 const Hero = ({ image, title, content }) => (
   <div className={styles.hero}>
     {image && (
-      <GatsbyImage className={styles.image} alt={title} image={image} />
+      <GatsbyImage className={styles.image} alt={title} image={image} loading='eager'/>
     )}
     <div className={styles.details}>
       <h1 className={styles.title}>{title}</h1>
