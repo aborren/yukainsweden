@@ -28,10 +28,7 @@ export default RootIndex
 
 export const pageQuery = graphql`
   query HomeQuery {
-    allContentfulBlogPost(
-        sort: { fields: [publishDate], order: DESC }
-        limit: 3
-      ) {
+    allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
       nodes {
         title
         slug
